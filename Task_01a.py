@@ -13,9 +13,8 @@ def main():
     x="Task1a"
     #===============================
     # Write your code here
-  
-    
-
+    shout = input("Shout: ")
+    print(f"{shout} {shout} {shout}")
     # End of your code here
     #===============================
 

@@ -33,8 +33,11 @@ def main():
     x="Task4a"
     #===============================
     # Write your code here
-    
-
+    age = int(input("How old are you? "))
+    letter = 100
+    print("Years until your letter...")
+    nage = letter - age
+    print(nage)
     # End of your code here
     #===============================
 
