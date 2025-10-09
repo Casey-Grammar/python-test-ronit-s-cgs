@@ -38,7 +38,11 @@ def main():
     x="Task9a"
     #===============================
     # Write your code here
+    lineup = input("And the line up is: ")
+    rlineup = lineup.split()
     
+
+
 
     # End of your code here
     #===============================
