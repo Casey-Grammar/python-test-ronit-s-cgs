@@ -40,7 +40,14 @@ def main():
     # Write your code here
     lineup = input("And the line up is: ")
     rlineup = lineup.split()
-    
+    sleep = input("Who's gone to sleep? ")
+    if sleep in rlineup:
+        print(f"{sleep} has been disqualified!")
+        print(f"Remaining racers: {lineup}")
+    else:
+        print("All snails are still awake.")
+        print(f"Remaining racers: {lineup}")
+
 
 
 

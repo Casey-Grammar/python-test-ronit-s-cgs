@@ -55,6 +55,15 @@ def format_days(short_days):
     x="Task10"
     #===============================
     # Write your code here
+    daysdict = {
+        "Mon": "Monday",
+        "Tue": "Tuesday",
+        "Wed": "Wednesday",
+        "Thu": "Thursday",
+        "Fri": "Friday",
+        "Sat": "Saturday",
+        "Sun": "Sunday"
+    }
     
 
     # End of your code here
