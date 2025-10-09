@@ -18,10 +18,13 @@ def main():
     x="Task1b"
     #===============================
     # Write your code here
-
-
-
-
+    shout = input("Shout: ")
+    separator = '\n'
+    parts = shout.split()
+    joined = separator.join(parts)
+    print(joined)
+    print(joined)
+    print(joined)
     # End of your code here
     # #===============================
 

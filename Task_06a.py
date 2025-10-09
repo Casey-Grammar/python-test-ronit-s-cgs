@@ -33,6 +33,7 @@ def main():
     x="Task6a"
     #===============================
     # Write your code here
+    word = input("Say: ")
     
 
     # End of your code here

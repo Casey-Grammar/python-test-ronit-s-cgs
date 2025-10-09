@@ -15,8 +15,15 @@ def main():
     x="Task4b"
     #===============================
     # Write your code here
-    
-
+    age = int(input("How old are you? "))
+    letter = 100
+    print("Years until your letter...")
+    nage = letter - age
+    if nage < 0:
+        new_nage = nage * -1
+        print(f"You already got your letter {new_nage} years ago")
+    else:
+        print(nage)
     # End of your code here
     #===============================
 
