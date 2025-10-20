@@ -32,7 +32,7 @@ def main():
   text = input("Text: ")
   if "Marco!" in text:
      print("Polo!")
-  elif
+  #elif
 
   # End of your code here
   #===============================
